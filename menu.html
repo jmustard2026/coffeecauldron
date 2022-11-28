@@ -37,6 +37,15 @@
             header ul li:hover {
                 background-color: #433423;
             }
+            .name {
+                font-family: 'Teko', sans-serif;
+                float: left;
+                margin-left: 25px;
+                margin-top: 10px;
+                color: #efcead;
+                text-decoration: none;
+                font-size: 30pt;
+            }
             #intro {
                 background-image: url('8.png');
                 background-attachment: fixed;
@@ -46,7 +55,29 @@
                 height: 400px;
                 padding-top: 350px;
             }
-            #feature {
+            #cappuccino {
+                background-image: url('1.jpg');
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: repeat;
+                background-size: cover;
+                height: 900px;
+            }
+            .cap {
+                width: 500px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 240px;
+                border-radius: 20px;
+            }
+            .cappr {
+                width: 800px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 20px;
+                border-radius: 20px;
+            }
+            #latte {
                 background-image: url('3.jpg');
                 background-attachment: fixed;
                 background-position: center;
@@ -55,29 +86,103 @@
                 height: 900px;
                 text-align: center;
             }
-            #board {
+            .lat {
+                width: 500px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 75px;
+                border-radius: 20px;
+            }
+            .latpr {
+                width: 800px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 20px;
+                border-radius: 20px;
+            }
+            #macchiato {
                 background-image: url('1.jpg');
                 background-attachment: fixed;
                 background-position: center;
                 background-repeat: repeat;
                 background-size: cover;
-                height: 960px;
+                height: 900px;
                 text-align: center;
             }
+            .mac {
+                width: 500px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 75px;
+                border-radius: 20px;
+            }
+            .macpr {
+                width: 800px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 20px;
+                border-radius: 20px;
+            }
+            #affogato {
+                background-image: url('3.jpg');
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: repeat;
+                background-size: cover;
+                height: 900px;
+                text-align: center;
+            }
+            .aff {
+                width: 500px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 75px;
+                border-radius: 20px;
+            }
+            .affpr {
+                width: 800px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 20px;
+                border-radius: 20px;
+            }
+            #cafeaulait {
+                background-image: url('1.jpg');
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: repeat;
+                background-size: cover;
+                height: 900px;
+                text-align: center;
+            }
+            .cal {
+                width: 500px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 75px;
+                border-radius: 20px;
+            }
+            .calpr {
+                width: 800px;
+                height: 500px;
+                margin-top: 200px;
+                margin-left: 20px;
+                border-radius: 20px;
+            }
             .redirect {
-                background-color: black;
+                background-color: #FFFAF1;
                 padding-left: 50px;
                 padding-right: 50px;
                 border-width: 2px; 
                 border-color: black; 
                 border-style: solid; 
                 margin-right: 820px; 
-                margin-top: 12px;
+                margin-top: 300px;
                 float: right;
             }
             .menu {
                 font-family: 'Inconsolata', sans-serif;
-                color: #FFFAF1;
+                color: black;
                 width: auto;
                 font-size: 25px;
                 text-align: center;
@@ -92,27 +197,41 @@
     </head>
     <body>
         <header>
+            <h1 class="name">Coffee Cauldron</h1>
             <ul>
                 <li><a href="about.html">About</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="index.html">Home</a></li>
             </ul>
         </header>
-        <section id="intro">
-
-        </section>
-        <section id="video">
-
-        </section>
-        <section id="feature">
-
-        <section id="board">
-            <article class="row1">
-
+        <div id="intro">
+            <article class="redirect">
+                <a href="about.html">
+                    <h2 class="menu">
+                        About   
+                    </h2>
+                </a>
             </article>
-            <footer class="redirect">
-
-            </footer>
-        </section>
+        </div>
+        <div id="cappuccino">
+            <img class="cap" src="4.png" alt="Cappuccino">
+            <img class="cappr" src="15.png" alt="Cappuccino Price & Reviews">
+        </div>
+        <div id="latte">
+            <img class="lat" src="6.png" alt="Latte">
+            <img class="latpr" src="16.png" alt="Latte Price & Reviews">
+        </div>
+        <div id="macchiato">
+            <img class="mac" src="5.png" alt="Macchiato">
+            <img class="macpr" src="17.png" alt="Macchiato Price & Reviews">
+        </div>
+        <div id="affogato">
+            <img class="aff" src="13.png" alt="Affogato">
+            <img class="affpr" src="18.png" alt="Affogato Price & Reviews">
+        </div>
+        <div id="cafeaulait">
+            <img class="cal" src="14.png" alt="Café Au Lait">
+            <img class="calpr" src="19.png" alt="Café Au Lait Price & Reviews">
+        </div>
     </body>
 </html>

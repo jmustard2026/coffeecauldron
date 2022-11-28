@@ -37,6 +37,15 @@
             header ul li:hover {
                 background-color: #433423;
             }
+            .name {
+                font-family: 'Teko', sans-serif;
+                float: left;
+                margin-left: 25px;
+                margin-top: 10px;
+                color: #efcead;
+                text-decoration: none;
+                font-size: 30pt;
+            }
             #intro {
                 background-image: url('9.jpeg');
                 background-attachment: fixed;
@@ -49,25 +58,11 @@
                 display: flex;
                 flex-direction: row;
             }
-            .cappuccino {
+            .card {
                 width: 500px;
                 height: 625px;
                 margin-top: 770px;
-                margin-left: 75px;
-                border-radius: 20px;
-            }
-            .latte {
-                width: 500px;
-                height: 625px;
-                margin-top: 770px;
-                margin-left: 75px;
-                border-radius: 20px;
-            }
-            .macchiato {
-                width: 500px;
-                height: 625px;
-                margin-top: 770px;
-                margin-left: 75px;
+                margin-left: 0px;
                 border-radius: 20px;
             }
             .redirect {
@@ -77,7 +72,7 @@
                 border-width: 2px; 
                 border-color: black; 
                 border-style: solid; 
-                margin-right: 820px; 
+                margin-right: 750px; 
                 margin-top: 30px;
                 float: right;
             }
@@ -98,6 +93,7 @@
     </head>
     <body>
         <header>
+            <h1 class="name">Coffee Cauldron</h1>
             <ul>
                 <li><a href="about.html">About</a></li>
                 <li><a href="menu.html">Menu</a></li>
@@ -105,16 +101,16 @@
             </ul>
         </header>
         <section id="intro">
-            <article class="row1">
-                <img class="cappuccino" src="12.png" alt="Cappuccino">
-                <img class="latte" src="11.png" alt="Latte">
-                <img class="macchiato" src="10.png" alt="Macchiato">
-            </article>
+            <div class="row1">
+                <img class="card" src="12.png" alt="Opening Times">
+                <img class="card" src="11.png" alt="Delivery">
+                <img class="card" src="10.png" alt="Contacts">
+            </div>
             <footer class="redirect">
                 <a href="index.html">
-                    <h1 class="home">
+                    <h2 class="home">
                         Home   
-                    </h1>
+                    </h2>
                 </a>
             </footer>
         </section>
